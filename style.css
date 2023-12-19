@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: antiquewhite;
   font-family: "Poppins", sans-serif;
 }
 
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(61, 179, 14)
 }
 
 /* TRANSITION */
@@ -26,7 +27,7 @@ a,
   transition: all 300ms ease;
 }
 .img-round{
-  border-radius: 65%;
+  border-radius: 10%;
 }
 /* DESKTOP NAV */
 
@@ -48,16 +49,16 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(56, 180, 25);
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: rgb(196, 71, 71);
 }
 
 a:hover {
-  color: grey;
+  color: rgba(211, 7, 7, 0.767);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(221, 15, 15);
 }
 
 .logo {
@@ -91,7 +92,7 @@ a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: rgb(87, 204, 51);
   transition: all 0.3 ease-in-out;
 }
 
@@ -99,7 +100,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(255, 244, 194);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -111,7 +112,7 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: rgb(207, 26, 26);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -233,7 +234,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -243,12 +244,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 23, 23);
 }
 
 .btn-color-2 {
@@ -256,7 +257,7 @@ section {
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-container {
@@ -378,7 +379,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: rgb(11, 73, 11);
   border-color: rgb(163, 163, 163);
 }
 
